@@ -5,14 +5,14 @@ import "core:os"
 import "core:strings"
 
 main :: proc() {
-	data, _ := os.read_entire_file("input.txt", context.allocator)
-	defer delete(data, context.allocator)
+    data, _ := os.read_entire_file("input.txt", context.allocator)
+    defer delete(data, context.allocator)
 
     total := 0;
 
-	it := string(data)
-	for line in strings.split_lines_iterator(&it) {
-		items : [52]bool;
+    it := string(data)
+    for line in strings.split_lines_iterator(&it) {
+        items : [52]bool;
         i := 0;
         for char in line {
             val : i8;
@@ -33,7 +33,7 @@ main :: proc() {
             }
             i += 1;
         }
-	}
+    }
 
     fmt.println(total);
 }

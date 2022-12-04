@@ -6,15 +6,15 @@ import "core:os"
 import "core:strings"
 
 main :: proc() {
-	data, _ := os.read_entire_file("input.txt", context.allocator)
-	defer delete(data, context.allocator)
+    data, _ := os.read_entire_file("input.txt", context.allocator)
+    defer delete(data, context.allocator)
 
     total := 0;
 
-	it := string(data)
+    it := string(data)
     i : u8 = 0;
     items : [52]u8;
-	for line in strings.split_lines_iterator(&it) {
+    for line in strings.split_lines_iterator(&it) {
         if i == 0 {
             for j in 0..<52 {
                 items[j] = 0;
@@ -39,7 +39,7 @@ main :: proc() {
             }
         }
         i = (i + 1) % 3;
-	}
+    }
 
     fmt.println(total);
 }
