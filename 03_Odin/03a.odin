@@ -5,7 +5,7 @@ import "core:os"
 import "core:strings"
 
 main :: proc() {
-	data, _ := os.read_entire_file("03.txt", context.allocator)
+	data, _ := os.read_entire_file("input.txt", context.allocator)
 	defer delete(data, context.allocator)
 
     total := 0;

@@ -1,4 +1,4 @@
-with open('01.txt', 'r') as f:
+with open('input.txt', 'r') as f:
     data = [line.strip() for line in f.readlines()]
 
 mx = 0

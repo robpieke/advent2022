@@ -12,7 +12,7 @@ local points = {
 
 local score = 0
 
-for line in io.lines("02.txt") do
+for line in io.lines("input.txt") do
     line = line:gsub(" ", "")
     score = score + points[line]
 end
