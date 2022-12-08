@@ -50,5 +50,5 @@ for (c = 0; c < cols; ++c) {
     }
 }
 
-const mx = grid.reduce(function(mx,c) { return Math.max(mx,c); } );
+const mx = grid.reduce(function(mx,c) { return Math.max(mx,c); });
 console.log(mx);
