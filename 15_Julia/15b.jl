@@ -17,12 +17,12 @@ function solve(rows)
 			end
 		end
 		sort!(minmax, by = x -> x[1])
-        mx = minmax[1][2]
+		mx = minmax[1][2]
 		for i in 2:length(minmax)
 			if minmax[i][1] > mx
-				println(y + 4000000 * (minmax[i][1]-1))
+				println(y + 4000000 * (minmax[i][1] - 1))
 			end
-            mx = max(mx, minmax[i][2])
+			mx = max(mx, minmax[i][2])
 		end
 	end
 end
@@ -30,12 +30,12 @@ end
 rows = Vector{Row}()
 
 for line in eachline("input.txt")
-    data = match(r"Sensor at x=(?<sx>-?\d+), y=(?<sy>-?\d+): closest beacon is at x=(?<bx>-?\d+), y=(?<by>-?\d+)", line)
-    push!(rows, Row(
-        parse(Int, data[:sx]),
-        parse(Int, data[:sy]),
-        parse(Int, data[:bx]),
-        parse(Int, data[:by])))
+	data = match(r"Sensor at x=(?<sx>-?\d+), y=(?<sy>-?\d+): closest beacon is at x=(?<bx>-?\d+), y=(?<by>-?\d+)", line)
+	push!(rows, Row(
+		parse(Int, data[:sx]),
+		parse(Int, data[:sy]),
+		parse(Int, data[:bx]),
+		parse(Int, data[:by])))
 end
 
 solve(rows)
