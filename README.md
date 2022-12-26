@@ -4,7 +4,7 @@ Here's my go at solving the puzzles from https://adventofcode.com/2022 ... with 
 
 | Day  | Language | Part 1             | Part 2             |
 | ---: | :---:    | :---:              | :---:              |
-| [1](01_Python)    | Python   | :white_check_mark: | :white_check_mark: |
+| [1](01_Python)    | Python   | [:white_check_mark:](01_Python/01a.py) | :white_check_mark: |
 | 2    | Lua      | :white_check_mark: | :white_check_mark: |
 | 3    | Odin     | :white_check_mark: | :white_check_mark: |
 | 4    | D        | :white_check_mark: | :white_check_mark: |
