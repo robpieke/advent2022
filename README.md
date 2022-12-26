@@ -7,7 +7,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | Day                                        | Language | Part 1                                     | Part 2                                     | Notes                                 |
 | -----------------------------------------: | :------: | :----------------------------------------: | :----------------------------------------: | :-----------------------------------: |
 | [1](https://adventofcode.com/2022/day/1)   | Python   | [:white_check_mark:](01_Python/01a.py)     | [:white_check_mark:](01_Python/01b.py)     | [:spiral_notepad:](#day-1---python)   |
-| [2](https://adventofcode.com/2022/day/2)   | Lua      | [:white_check_mark:](02_Lua/02a.lua)       | [:white_check_mark:](02_Lua/02b.lua)       |                                       |
+| [2](https://adventofcode.com/2022/day/2)   | Lua      | [:white_check_mark:](02_Lua/02a.lua)       | [:white_check_mark:](02_Lua/02b.lua)       | [:spiral_notepad:](#day-2---lua)      |
 | [3](https://adventofcode.com/2022/day/3)   | Odin     | [:white_check_mark:](03_Odin/03a.odin)     | [:white_check_mark:](03_Odin/03b.odin)     |                                       |
 | [4](https://adventofcode.com/2022/day/4)   | D        | [:white_check_mark:](04_D/04a.d)           | [:white_check_mark:](04_D/04b.d)           |                                       |
 | [5](https://adventofcode.com/2022/day/5)   | Perl     | [:white_check_mark:](05_Perl/05a.pl)       | [:white_check_mark:](05_Perl/05b.pl)       |                                       |
@@ -39,6 +39,10 @@ As a general comment, it is *incredible* how much "how-to" programming informati
 ### Day 1 - Python
 
 Python is such an incredible all-purpose language for programming. It provides so much functionality out of the box and makes it so easy to whip something together. This is the programming language I used for all my solutions in previous years.
+
+### Day 2 - Lua
+
+This was an easy choice. The problem was trivially solved using look-up tables and, to quote their own docs, "Tables are the main (in fact, the only) data structuring mechanism in Lua".
 
 ### Day 25 - Haskell
 
