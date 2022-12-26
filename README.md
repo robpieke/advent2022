@@ -12,7 +12,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [4](https://adventofcode.com/2022/day/4)   | D        | [:white_check_mark:](04_D/04a.d)           | [:white_check_mark:](04_D/04b.d)           | [:spiral_notepad:](#day-4---d)        |
 | [5](https://adventofcode.com/2022/day/5)   | Perl     | [:white_check_mark:](05_Perl/05a.pl)       | [:white_check_mark:](05_Perl/05b.pl)       | [:spiral_notepad:](#day-5---perl)     |
 | [6](https://adventofcode.com/2022/day/6)   | Nim      | [:white_check_mark:](06_Nim/day06a.nim)    | [:white_check_mark:](06_Nim/day06b.nim)    | [:spiral_notepad:](#day-6---nim)      |
-| [7](https://adventofcode.com/2022/day/7)   | Awk      | [:white_check_mark:](07_Awk/07a.awk)       | [:white_check_mark:](07_Awk/07b.awk)       | [:spiral_notepad:](#day-7---julia)    |
+| [7](https://adventofcode.com/2022/day/7)   | Awk      | [:white_check_mark:](07_Awk/07a.awk)       | [:white_check_mark:](07_Awk/07b.awk)       | [:spiral_notepad:](#day-7---awk)      |
 | [8](https://adventofcode.com/2022/day/8)   | NodeJS   | [:white_check_mark:](08_NodeJS/08a.js)     | [:white_check_mark:](08_NodeJS/08b.js)     |                                       |
 | [9](https://adventofcode.com/2022/day/9)   | Bash     | [:white_check_mark:](09_Bash/09a.sh)       | [:white_check_mark:](09_Bash/09b.sh)       |                                       |
 | [10](https://adventofcode.com/2022/day/10) | Ruby     | [:white_check_mark:](10_Ruby/10a.rb)       | [:white_check_mark:](10_Ruby/10b.rb)       |                                       |
@@ -58,7 +58,7 @@ This brought back memories of trying to dissect/understand and extend Perl scrip
 
 ### Day 6 - Nim
 
-It's arguably not a big thing, but it annoyed me that I couldn't name my source files `06a.nim` because the filename is used to drive the module name and `06a` isn't a valid identifier. *None* of the other languages I used had this restriction (at most I'd need to specify a module name inside the source file - [with D for example](04_D/04a.d#L1)). Ignoring that, the language was easy to work with. I like the numeric ranges for `for` loops, and the multi-line blocks for `let` and `var`. The solutions were too short to get a real sense of the language, but I felt more like I was programming in Python than in C++ here - and, especially in this context, I mean that in a very positive way.
+It's arguably not a big thing, but it annoyed me that I couldn't name my source files `06a.nim` because the filename is used to drive the module name and `06a` isn't a valid identifier. *None* of the other languages I used had this restriction (at most I'd need to specify a module name inside the source file - [D for example](04_D/04a.d#L1)). Ignoring that, the language was easy to work with. I like the numeric ranges for `for` loops, and the multi-line blocks for `let` and `var`. The solutions were too short to get a real sense of the language, but I felt more like I was programming in Python than in C++ here - and, especially in this context, I mean that in a very positive way.
 
 ### Day 7 - Awk
 
