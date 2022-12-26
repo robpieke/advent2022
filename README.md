@@ -20,7 +20,7 @@ Here's my go at solving the puzzles from https://adventofcode.com/2022 ... with 
 | [14](14_PHP)     | PHP      | [:white_check_mark:]()                  | [:white_check_mark:]()                  |
 | [15](16_Julia)   | Julia    | [:white_check_mark:]()                  | [:white_check_mark:]()                  |
 | [16](16_Groovy)  | Groovy   | [:white_check_mark:]()                  | [:white_check_mark:]()                  |
-| [17](17_C#)      | C#       | [:white_check_mark:](17_C#/17a.cs)      |                                         |
+| [17](17_C%23)    | C#       | [:white_check_mark:](17_C%23/17a.cs)    |                                         |
 | [18](18_R)       | R        | [:white_check_mark:]()                  |                                         |
 |  19              |          |                                         |                                         |
 |  20              |          |                                         |                                         |
