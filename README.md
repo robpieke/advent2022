@@ -66,7 +66,7 @@ I'd never used Awk beyond some simple one-liners to extract a bit of data from s
 
 ### Day 24 - Rust
 
-I keep wanting to learn Rust properly, but it never fully clicks with me. Perhaps I'm just too set in my C++ ways, but I keep finding Rust just a bit awkward to work with. Luckily this puzzle didn't require any of the borrow-checking "fun" Rust has to offer, but I still found myself stumbling against the compiler more often than I'd like. The strictness over types (`i32` vs `usize` for example), regardless how well motivated for safety, was annoying - and I prefer the C-style casting syntax of other languages, like Odin (`i32(x + y)` vs `(x + y) as i32`). Maybe I'll still love Rust in the future one day, but not today.
+I keep wanting to learn Rust properly, but it never fully clicks with me. Perhaps I'm just too set in my C++ ways, but I keep finding Rust just a bit awkward to work with. Luckily this puzzle didn't require any of the borrow-checking "fun" Rust has to offer, but I still found myself stumbling against the compiler more often than I'd like. The strictness over types (`i32` vs `usize` for example), regardless how well motivated for safety, was annoying - and I prefer the C-style casting syntax of other languages (`i32(x + y)` vs `(x + y) as i32`). Maybe I'll still love Rust in the future one day, but not today.
 
 ### Day 25 - Haskell
 
