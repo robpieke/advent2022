@@ -29,7 +29,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [21](https://adventofcode.com/2022/day/21) | Scala    | [:white_check_mark:](21_Scala/21a.scala)   | [:white_check_mark:](21_Scala/21b.scala)   |                                       |
 | [22](https://adventofcode.com/2022/day/22) |          |                                            |                                            |                                       |
 | [23](https://adventofcode.com/2022/day/23) |          |                                            |                                            |                                       |
-| [24](https://adventofcode.com/2022/day/24) | Rust     | [:white_check_mark:](25_Rust/24a.rs)       | [:white_check_mark:](25_Rust/24a.rs)       | [:spiral_notepad:](#day-24---rust)    |
+| [24](https://adventofcode.com/2022/day/24) | Rust     | [:white_check_mark:](24_Rust/24a.rs)       | [:white_check_mark:](24_Rust/24b.rs)       | [:spiral_notepad:](#day-24---rust)    |
 | [25](https://adventofcode.com/2022/day/25) | Haskell  | [:white_check_mark:](25_Haskell/25a.hs)    |                                            | [:spiral_notepad:](#day-25---haskell) |
 
 ## Thoughts/notes
