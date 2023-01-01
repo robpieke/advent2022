@@ -29,7 +29,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [21](https://adventofcode.com/2022/day/21) | Scala    | [:white_check_mark:](21_Scala/21a.scala)   | [:white_check_mark:](21_Scala/21b.scala)   |                                       |
 | [22](https://adventofcode.com/2022/day/22) |          |                                            |                                            |                                       |
 | [23](https://adventofcode.com/2022/day/23) |          |                                            |                                            |                                       |
-| [24](https://adventofcode.com/2022/day/24) | Rust     | [:white_check_mark:](25_Rust/24a.rs)       | [:white_check_mark:](25_Rust/24a.rs)       | [:spiral_notepad:](#day-24---rust)    |
+| [24](https://adventofcode.com/2022/day/24) | Rust     | [:white_check_mark:](24_Rust/24a.rs)       | [:white_check_mark:](24_Rust/24b.rs)       | [:spiral_notepad:](#day-24---rust)    |
 | [25](https://adventofcode.com/2022/day/25) | Haskell  | [:white_check_mark:](25_Haskell/25a.hs)    |                                            | [:spiral_notepad:](#day-25---haskell) |
 
 ## Thoughts/notes
@@ -66,7 +66,7 @@ I'd never used Awk beyond some simple one-liners to extract a bit of data from s
 
 ### Day 24 - Rust
 
-I keep wanting to learn Rust properly, but it never fully clicks with me. Perhaps I'm just too set in my C++ ways, but I keep finding Rust just a bit awkward to work with. Luckily this puzzle didn't require any of the borrow-checking "fun" Rust has to offer, but I still found myself stumbling against the compiler more often than I'd like. The strictness over types (`i32` vs `usize` for example), regardless how well motivated for safety, was annoying - and I prefer the C-style casting syntax of other languages, like Odin (`i32(x + y)` vs `(x + y) as i32`). Maybe I'll still love Rust in the future one day, but not today.
+I keep wanting to learn Rust properly, but it never fully clicks with me. Perhaps I'm just too set in my C++ ways, but I keep finding Rust just a bit awkward to work with. Luckily this puzzle didn't require any of the borrow-checking "fun" Rust has to offer, but I still found myself stumbling against the compiler more often than I'd like. The strictness over types (`i32` vs `usize` for example), regardless how well motivated for safety, was annoying - and I prefer the C-style casting syntax of other languages (`i32(x + y)` vs `(x + y) as i32`). Maybe I'll still love Rust in the future one day, but not today.
 
 ### Day 25 - Haskell
 
