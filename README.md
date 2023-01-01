@@ -28,7 +28,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [20](https://adventofcode.com/2022/day/20) | Tcl      | [:white_check_mark:](20_Tcl/20a.tcl)       | [:white_check_mark:](20_Tcl/20a.tcl)       | [:spiral_notepad:](#day-20---tcl)     |
 | [21](https://adventofcode.com/2022/day/21) | Scala    | [:white_check_mark:](21_Scala/21a.scala)   | [:white_check_mark:](21_Scala/21b.scala)   |                                       |
 | [22](https://adventofcode.com/2022/day/22) |          |                                            |                                            |                                       |
-| [23](https://adventofcode.com/2022/day/23) |          |                                            |                                            |                                       |
+| [23](https://adventofcode.com/2022/day/23) | C++      | [:white_check_mark:](23_C%2B%2B/23a.cpp)   | [:white_check_mark:](23_C%2B%2B/23b.cpp)   | [:spiral_notepad:](#day-24--c++)      |
 | [24](https://adventofcode.com/2022/day/24) | Rust     | [:white_check_mark:](24_Rust/24a.rs)       | [:white_check_mark:](24_Rust/24b.rs)       | [:spiral_notepad:](#day-24---rust)    |
 | [25](https://adventofcode.com/2022/day/25) | Haskell  | [:white_check_mark:](25_Haskell/25a.hs)    |                                            | [:spiral_notepad:](#day-25---haskell) |
 
@@ -67,6 +67,10 @@ I'd never used Awk beyond some simple one-liners to extract a bit of data from s
 ### Day 20 - Tcl
 
 I chose this language more because I was running out of languages than because I thought it'd be a good fit. To be fair, it was pretty easy to express my solution using Tcl, though it did mean living the programming-interview joke(?) about implementing linked-list functionality.
+
+### Day 23 - C++
+
+This has been my main professional day-to-day programming language for the last decade or two, so I was pretty confident that whichever puzzle I ended up using it for would be solved without too much fighting-against-the-language pain. The `std` containers were very helpful (I didn't expect to use all of `set`, `map` and `array`, but they each served a useful purpose), and I was able to proceed confidently.
 
 ### Day 24 - Rust
 
