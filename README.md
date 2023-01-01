@@ -25,7 +25,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [17](https://adventofcode.com/2022/day/17) | C#       | [:white_check_mark:](17_C%23/17a.cs)       |                                            |                                       |
 | [18](https://adventofcode.com/2022/day/18) | R        | [:white_check_mark:](18_R/18a.R)           |                                            |                                       |
 | [19](https://adventofcode.com/2022/day/19) |          |                                            |                                            |                                       |
-| [20](https://adventofcode.com/2022/day/20) |          |                                            |                                            |                                       |
+| [20](https://adventofcode.com/2022/day/20) | Tcl      | [:white_check_mark:](20_Tcl/20a.tcl)       | [:white_check_mark:](20_Tcl/20a.tcl)       | [:spiral_notepad:](#day-20---tcl)     |
 | [21](https://adventofcode.com/2022/day/21) | Scala    | [:white_check_mark:](21_Scala/21a.scala)   | [:white_check_mark:](21_Scala/21b.scala)   |                                       |
 | [22](https://adventofcode.com/2022/day/22) |          |                                            |                                            |                                       |
 | [23](https://adventofcode.com/2022/day/23) |          |                                            |                                            |                                       |
@@ -63,6 +63,10 @@ It's arguably not a big thing, but it annoyed me that I couldn't name my source 
 ### Day 7 - Awk
 
 I'd never used Awk beyond some simple one-liners to extract a bit of data from some text. I'm really glad I chose to use this language for a puzzle, and this day's puzzle was a good fit with its requirement for text processing (specifically processing a file line-by-line, then ending by aggregating the processed data). I didn't know if Awk would have the support I'd need (associative arrays, for example), and it's been a great discovery to understand just how powerful this language is. I expect I'll be reaching for it in a professional capacity in future.
+
+### Day 20 - Tcl
+
+I chose this language more because I was running out of languages than because I thought it'd be a good fit. To be fair, it was pretty easy to express my solution using Tcl, though it did mean living the programming-interview joke(?) about implementing linked-list functionality.
 
 ### Day 24 - Rust
 
