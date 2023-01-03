@@ -27,7 +27,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [19](https://adventofcode.com/2022/day/19) |          |                                            |                                            |                                       |
 | [20](https://adventofcode.com/2022/day/20) | Tcl      | [:white_check_mark:](20_Tcl/20a.tcl)       | [:white_check_mark:](20_Tcl/20a.tcl)       | [:spiral_notepad:](#day-20---tcl)     |
 | [21](https://adventofcode.com/2022/day/21) | Scala    | [:white_check_mark:](21_Scala/21a.scala)   | [:white_check_mark:](21_Scala/21b.scala)   |                                       |
-| [22](https://adventofcode.com/2022/day/22) |          |                                            |                                            |                                       |
+| [22](https://adventofcode.com/2022/day/22) | Kotlin   | [:white_check_mark:](22_Kotlin/22a.kt)     |                                            |                                       |
 | [23](https://adventofcode.com/2022/day/23) | C++      | [:white_check_mark:](23_C%2B%2B/23a.cpp)   | [:white_check_mark:](23_C%2B%2B/23b.cpp)   | [:spiral_notepad:](#day-23---c)       |
 | [24](https://adventofcode.com/2022/day/24) | Rust     | [:white_check_mark:](24_Rust/24a.rs)       | [:white_check_mark:](24_Rust/24b.rs)       | [:spiral_notepad:](#day-24---rust)    |
 | [25](https://adventofcode.com/2022/day/25) | Haskell  | [:white_check_mark:](25_Haskell/25a.hs)    |                                            | [:spiral_notepad:](#day-25---haskell) |
