@@ -23,7 +23,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [15](https://adventofcode.com/2022/day/15) | Julia    | [:white_check_mark:](15_Julia/15a.jl)      | [:white_check_mark:](15_Julia/15b.jl)      |                                       |
 | [16](https://adventofcode.com/2022/day/16) | Groovy   | [:white_check_mark:](16_Groovy/16a.groovy) | [:white_check_mark:](16_Groovy/16b.groovy) |                                       |
 | [17](https://adventofcode.com/2022/day/17) | C#       | [:white_check_mark:](17_C%23/17a.cs)       |                                            |                                       |
-| [18](https://adventofcode.com/2022/day/18) | R        | [:white_check_mark:](18_R/18a.R)           |                                            |                                       |
+| [18](https://adventofcode.com/2022/day/18) | R        | [:white_check_mark:](18_R/18a.R)           | [:white_check_mark:](18_R/18b.R)           | [:spiral_notepad:](#day-18---r)       |
 | [19](https://adventofcode.com/2022/day/19) |          |                                            |                                            |                                       |
 | [20](https://adventofcode.com/2022/day/20) | Tcl      | [:white_check_mark:](20_Tcl/20a.tcl)       | [:white_check_mark:](20_Tcl/20a.tcl)       | [:spiral_notepad:](#day-20---tcl)     |
 | [21](https://adventofcode.com/2022/day/21) | Scala    | [:white_check_mark:](21_Scala/21a.scala)   | [:white_check_mark:](21_Scala/21b.scala)   |                                       |
@@ -63,6 +63,10 @@ It's arguably not a big thing, but it annoyed me that I couldn't name my source 
 ### Day 7 - Awk
 
 I'd never used Awk beyond some simple one-liners to extract a bit of data from some text. I'm really glad I chose to use this language for a puzzle, and this day's puzzle was a good fit with its requirement for text processing (specifically processing a file line-by-line, then ending by aggregating the processed data). I didn't know if Awk would have the support I'd need (associative arrays, for example), and it's been a great discovery to understand just how powerful this language is. I expect I'll be reaching for it in a professional capacity in future.
+
+### Day 18 - R
+
+This was a tough one for me, with zero experience using R. I really struggled with my ignorance of R vectors vs lists vs matrices vs data frames, but was pretty satisfied with my approach for the first half of the day's puzzle. It felt like R was a great fit for this challenge, allowing a really concise solution leveraging R's data processing capabilities. The second half proved a further struggle, however. I knew the approach I wanted to take, but the implementation left me feeling like I was no longer taking advantage of R and was doing a fairly literal translation of the solution as I'd implement it in Python (or similar).
 
 ### Day 20 - Tcl
 
