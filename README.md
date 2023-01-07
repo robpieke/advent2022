@@ -66,7 +66,7 @@ I'd never used Awk beyond some simple one-liners to extract a bit of data from s
 
 ### Day 17 - C#
 
-Working with C# came quite naturally given my familiarity with C++. I liked the support for [multidimensional arrays](17_C%23/17a.cs#L12) as first-class primitives, and there's some handy stuff in the .NET framework (such as [`File.ReadAllText()`](17_C%23/17a.cs#L45) and [`Dictionary<K,V>.TryGetValue()`](17_C%23/17a.cs#L65)).
+Working with C# came quite naturally given my familiarity with C++. I liked the support for [multidimensional arrays](17_C%23/17a.cs#L12) as first-class primitives, and there's some handy stuff in the .NET framework (such as [`File.ReadAllText()`](17_C%23/17a.cs#L45) and [`Dictionary<K,V>.TryGetValue()`](17_C%23/17b.cs#L65)).
 
 ### Day 18 - R
 
