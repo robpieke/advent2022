@@ -24,7 +24,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [16](https://adventofcode.com/2022/day/16) | Groovy   | [:white_check_mark:](16_Groovy/16a.groovy) | [:white_check_mark:](16_Groovy/16b.groovy) |                                       |
 | [17](https://adventofcode.com/2022/day/17) | C#       | [:white_check_mark:](17_C%23/17a.cs)       | [:white_check_mark:](17_C%23/17b.cs)       | [:spiral_notepad:](#day-17---c)       |
 | [18](https://adventofcode.com/2022/day/18) | R        | [:white_check_mark:](18_R/18a.R)           | [:white_check_mark:](18_R/18b.R)           | [:spiral_notepad:](#day-18---r)       |
-| [19](https://adventofcode.com/2022/day/19) |          |                                            |                                            |                                       |
+| [19](https://adventofcode.com/2022/day/19) | V        | [:white_check_mark:](19_V/19a.v)           | [:white_check_mark:](19_V/19b.v)           | [:spiral_notepad:](#day-19---v)       |
 | [20](https://adventofcode.com/2022/day/20) | Tcl      | [:white_check_mark:](20_Tcl/20a.tcl)       | [:white_check_mark:](20_Tcl/20a.tcl)       | [:spiral_notepad:](#day-20---tcl)     |
 | [21](https://adventofcode.com/2022/day/21) | Scala    | [:white_check_mark:](21_Scala/21a.scala)   | [:white_check_mark:](21_Scala/21b.scala)   |                                       |
 | [22](https://adventofcode.com/2022/day/22) | Kotlin   | [:white_check_mark:](22_Kotlin/22a.kt)     |                                            |                                       |
@@ -71,6 +71,10 @@ Working with C# came quite naturally given my familiarity with C++. I liked the 
 ### Day 18 - R
 
 This was a tough one for me, with zero experience using R. I really struggled with my ignorance of R vectors vs lists vs matrices vs data frames, but was pretty satisfied with my approach for the first half of the day's puzzle. It felt like R was a great fit for this challenge, allowing a really concise solution leveraging R's data processing capabilities. The second half proved a further struggle, however. I knew the approach I wanted to take, but the implementation left me feeling like I was no longer taking advantage of R and was doing a fairly literal translation of the solution as I'd implement it in Python (or similar).
+
+### Day 19 - V
+
+This was the day's puzzles that I started last (though I still finished these before 22b), so I was running low on languages to choose from. I don't remember how I found V, but it made some bold performance promises, and the syntax looked close enough to C/C++ to be easily approachable. On the whole I actually found it pretty good, with some interesting language design and excellent docs (https://github.com/vlang/v/blob/master/doc/docs.md). One life-saver for this day's puzzles was the built-in profiler, which revealed that my never-finishing code was spending pretty much all its time appending to a `datatypes.Queue` that only tracked a `head` pointer and thus had `O(n)` cost for `push`. After making a local modified copy of the underlying `LinkedList` struct to also track `tail` and give `O(1)` for `push`, the hotspot in the profile vanished and my code ran in a few seconds.
 
 ### Day 20 - Tcl
 
